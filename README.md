@@ -17,6 +17,4 @@ node.FUNCTIONNAME('server_id').then((response) => {
 	// and now functions with response for example "consle.log(response)" or what you want
 })
 ```
-
-NOTE: You can use every function from original nodeactyl: https://docs.nodeactyl.xyz/
 ---------------------------------------------------------------------------------------------------
