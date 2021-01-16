@@ -4,17 +4,24 @@
 # server-rebooter
 How to use?
 ----------------------------------------------------------------------------------------------------
-To login to your Pterodactyl panel use:
+Step 1:
+Login to your Pterodactyl panel inside the code where it says:
 ```javascript
-node.login('HOST', "APIKEY", (logged_in, msg) => {
-	console.log('Log in status: ' + logged_in); // return a Boolean (true/false) if logged in.
+node.login('https://YOURPANELHOST.example', 'YOUR API CREDENTIALS', (logged_in, msg) => {
+    console.log('Log in status:', logged_in)
+    loadServer()
 })
+```
 
-```
-And then you can use any funtion you want:
+Step 2:
+Add to the dictionary called servers an element like that:
 ```javascript
-node.FUNCTIONNAME('server_id').then((response) => {
-	// and now functions with response for example "consle.log(response)" or what you want
-})
+var servers =
+[
+	{ name: "YOUR SERVERNAME", id: "YOUR SERVER ID ON PANEL" }
+]
 ```
+do that for all your wich should be rebooted if they crash or so.
+
+and now you are ready to go!
 ---------------------------------------------------------------------------------------------------
