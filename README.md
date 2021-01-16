@@ -2,6 +2,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/EiskalterFreund/nodeactyl-v1-support)](https://github.com/EiskalterFreund/server-rebooter/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/EiskalterFreund/nodeactyl-v1-support)](https://github.com/EiskalterFreund/server-rebooter/pulls)
 # server-rebooter
+
 What is server-rebooter?
 ----------------------------------------------------------------------------------------------------
 It's a peace of code wich reboots your Pterodactyl servers every 5 seconds if they are offline or
