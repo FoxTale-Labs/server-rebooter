@@ -6,7 +6,7 @@
 What is server-rebooter?
 ----------------------------------------------------------------------------------------------------
 It's a peace of code wich reboots your Pterodactyl servers every 5 seconds if they are offline or
-crashed!
+crashed and only 2 steps to set it up!
 
 How to use?
 ----------------------------------------------------------------------------------------------------
