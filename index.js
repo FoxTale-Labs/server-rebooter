@@ -8,10 +8,7 @@ node.login('https://YOURHOST.example', 'YOUR API CREDENTIALS', (logged_in, msg) 
 
 var servers = 
 [
-    { name: "CHWEPPEN - Webserver (2)", id: "6107030d" },
-    { name: "CHWEPPEN - Webserver (1)", id: "734744bb" },
-    { name: "McProject", id: "5a13c1b9" },
-    { name: "Minecraft OneBlock", id: "88756bf5" }
+    { name: "YOUR SERVER NAME", id: "YOUR SERVER ID" },
 ]
 
 function loadServer() {
